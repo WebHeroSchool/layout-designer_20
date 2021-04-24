@@ -18,7 +18,8 @@ body {
   width: 146px;
   height: 55px;
   background: no-repeat url('img/logo1920.svg');
-  padding: 88px 49% 129px 0;
+  padding-top: 60px;
+  margin-top: 88px;
 }
 
 .menu {
