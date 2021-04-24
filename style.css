@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+}
+
+.menu__item {
+  font-family: 'Museo Sans Cyrl', arial, helvetica, sans-serif;
+}
+
+.main__title {
+    font-family: 'pt_serifbold',arial, helvetica, sans-serif;
+}
+
+.main__subtitle {
+  font-family: 'Museo Sans Cyrl',arial, helvetica, sans-serif;
+}
+
+.main__button {
+  font-family: 'Museo Sans Cyrl',arial, helvetica, sans-serif;
+}
