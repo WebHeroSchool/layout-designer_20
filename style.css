@@ -49,6 +49,8 @@ body {
 
 .main__subtitle {
   font-family: 'Museo Sans Cyrl',arial, helvetica, sans-serif;
+  width: 551px;
+  height: 55px;
 }
 
 .main__button {
@@ -56,4 +58,7 @@ body {
   cursor: pointer;
   text-decoration: none;
   border-radius: 48px;
+  background: color #D4BEA3;
+  width: 294px;
+  height: 62px;
 }
