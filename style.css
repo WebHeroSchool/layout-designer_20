@@ -1,11 +1,13 @@
 body {
   margin: 0;
-  background: url('img/background1920');
+  background: url('img/background1920.svg');
 }
 
 .wrapper {
   margin: auto;
   display: flex;
+  width: 1518px;
+  height: 468px;
 }
 
 .header {
@@ -15,8 +17,8 @@ body {
 .logo{
   width: 146px;
   height: 55px;
-  background: url('img/logo1920');
-  padding-right: 49%;
+  background: url('img/logo1920.svg');
+  padding: 0 49% 129px 0;
 }
 
 .menu {
@@ -30,11 +32,13 @@ body {
 }
 
 .main{
-
+  background: no-repeat url('img/picture1.svg'),
+    no-repeat url('img/picture2.svg'),
+    no-repeat url('img/picture3.svg');
 }
 
 .main__title {
-  font-family: 'pt_serifbold',arial, helvetica, sans-serif;
+  font: bold 98px/130px 'pt_serifbold',arial, helvetica, sans-serif;
 }
 
 .main__title-text_highlight{
@@ -47,16 +51,4 @@ body {
 
 .main__button {
   font-family: 'Museo Sans Cyrl',arial, helvetica, sans-serif;
-}
-
-.image1{
-  background: url('img/picture1')
-}
-
-.image2{
-  background: url('img/picture2')
-}
-
-.image3{
-  background: url('img/picture3')
 }
