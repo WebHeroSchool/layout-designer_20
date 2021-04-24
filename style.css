@@ -1,13 +1,44 @@
 body {
   margin: 0;
+  background: url('img/background1920');
+}
+
+.wrapper {
+  margin: auto;
+  display: flex;
+}
+
+.header {
+  justify-content:space-between;
+}
+
+.logo{
+  width: 146px;
+  height: 55px;
+  background: url('img/logo1920');
+  padding-right: 49%;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
 }
 
 .menu__item {
   font-family: 'Museo Sans Cyrl', arial, helvetica, sans-serif;
+  padding-right: 34px;
+}
+
+.main{
+
 }
 
 .main__title {
-    font-family: 'pt_serifbold',arial, helvetica, sans-serif;
+  font-family: 'pt_serifbold',arial, helvetica, sans-serif;
+}
+
+.main__title-text_highlight{
+  opacity: .4;
 }
 
 .main__subtitle {
@@ -16,4 +47,16 @@ body {
 
 .main__button {
   font-family: 'Museo Sans Cyrl',arial, helvetica, sans-serif;
+}
+
+.image1{
+  background: url('img/picture1')
+}
+
+.image2{
+  background: url('img/picture2')
+}
+
+.image3{
+  background: url('img/picture3')
 }
