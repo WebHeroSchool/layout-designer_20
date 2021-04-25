@@ -4,13 +4,14 @@ body {
 }
 
 .wrapper {
-  margin: 0 auto;
-  width: 80%;
+  margin: 0 auto 0 200px;
+  width: 84.2%;
 }
 
 .header {
   display: flex;
   justify-content:space-between;
+  padding-bottom: 150px;
 }
 
 .logo{
@@ -24,6 +25,7 @@ body {
 .menu {
   display: flex;
   align-items: center;
+  padding-top: 24px;
 }
 
 .menu__item {
@@ -46,6 +48,7 @@ body {
 .main__title_2 {
   font: bold 98px/1px 'pt_serifbold',arial, helvetica, sans-serif;
   color: #F8EEE4;
+  padding-left: 83px;
 }
 
 .main__subtitle {
