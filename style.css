@@ -36,7 +36,7 @@ body {
   color: #F8EEE4;
 }
 
-.main{}
+.image{}
 
 .main__title_1{
   font: bold 280px/222px 'pt_serifbold',arial, helvetica, sans-serif;
@@ -68,13 +68,6 @@ body {
   background: no-repeat #D4BEA3;
   color: #FFF;
   padding: 17px 86px;
-}
-
-.pictures{
-  background: top right no-repeat url('img/picture1.svg'),
-    no-repeat url('img/picture2.svg'),
-    no-repeat url('img/picture3.svg');
-    height: 422px;
 }
 
 .hamburger-menu{
