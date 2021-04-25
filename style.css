@@ -32,6 +32,7 @@ body {
   padding-right: 34px;
   cursor: pointer;
   text-decoration: none;
+  color: #F8EEE4;
 }
 
 .main{
@@ -40,8 +41,14 @@ body {
     no-repeat url('img/picture3.svg');
 }
 
-.main__title {
+.main__title_1{
+  font: bold 280px/371px 'pt_serifbold',arial, helvetica, sans-serif;
+  color: #F8EEE4;
+}
+
+.main__title_2 {
   font: bold 98px/130px 'pt_serifbold',arial, helvetica, sans-serif;
+  color: #F8EEE4;
 }
 
 .main__title-text_highlight{
@@ -49,19 +56,21 @@ body {
 }
 
 .main__subtitle {
-  font-family: 'Museo Sans Cyrl',arial, helvetica, sans-serif;
+  font: 22px/26px 'Museo Sans Cyrl',arial, helvetica, sans-serif;
   width: 551px;
   height: 55px;
+  color: #F8EEE4;
 }
 
 .main__button {
-  font-family: 'Museo Sans Cyrl',arial, helvetica, sans-serif;
+  display: inline-block;
+  font: 22px/26px 'Museo Sans Cyrl',arial, helvetica, sans-serif;
   cursor: pointer;
   text-decoration: none;
   border-radius: 48px;
-  background: color #D4BEA3;
-  width: 294px;
-  height: 62px;
+  background: no-repeat color #D4BEA3;
+  color: #FFF;
+  padding: 17px 86px;
 }
 
 .hamburger-menu{
