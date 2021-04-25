@@ -4,13 +4,12 @@ body {
 }
 
 .wrapper {
-  margin: auto;
-  display: flex;
-  width: 1518px;
-  height: 1080px;
+  margin: 0 auto;
+  width: 80%;
 }
 
 .header {
+  display: flex;
   justify-content:space-between;
 }
 
