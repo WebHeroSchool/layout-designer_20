@@ -35,9 +35,7 @@ body {
 }
 
 .main{
-  background: no-repeat url('img/picture1.svg'),
-    no-repeat url('img/picture2.svg'),
-    no-repeat url('img/picture3.svg');
+  display: flex;
 }
 
 .main__title_1{
@@ -50,10 +48,6 @@ body {
 .main__title_2 {
   font: bold 98px/1px 'pt_serifbold',arial, helvetica, sans-serif;
   color: #F8EEE4;
-}
-
-.main__title-text_highlight{
-  opacity: .4;
 }
 
 .main__subtitle {
@@ -73,6 +67,12 @@ body {
   background: no-repeat #D4BEA3;
   color: #FFF;
   padding: 17px 86px;
+}
+
+.pictures{
+  background: top right no-repeat url('img/picture1'),
+    no-repeat url('img/picture2'),
+    no-repeat url('img/picture3');
 }
 
 .hamburger-menu{
