@@ -68,9 +68,9 @@ body {
 }
 
 .pictures{
-  background: top right no-repeat url('img/picture1'),
-    no-repeat url('img/picture2'),
-    no-repeat url('img/picture3');
+  background: top right no-repeat url('img/picture1.svg'),
+    no-repeat url('img/picture2.svg'),
+    no-repeat url('img/picture3.svg');
 }
 
 .hamburger-menu{
