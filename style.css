@@ -29,11 +29,16 @@ body {
 }
 
 .menu__item {
-  font: 22px/26px 'Museo Sans Cyrl', arial, helvetica, sans-serif;
-  padding-right: 31.3px;
+  font: bold 22px/26px 'Museo Sans Cyrl', arial, helvetica, sans-serif;
+  padding-right: 34px;
   cursor: pointer;
   text-decoration: none;
   color: #F8EEE4;
+  letter-spacing: 1px;
+}
+
+.menu__item:last-child {
+  padding-right: 0;
 }
 
 .main{
