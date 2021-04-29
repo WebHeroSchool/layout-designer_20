@@ -30,11 +30,11 @@ body {
 
 .menu__item {
   font: bold 22px/26px 'Museo Sans Cyrl', arial, helvetica, sans-serif;
-  padding-right: 34px;
+  padding-right: 27px;
   cursor: pointer;
   text-decoration: none;
   color: #F8EEE4;
-  letter-spacing: 1px;
+  margin-right: 14.1px;
 }
 
 .menu__item:last-child {
