@@ -89,6 +89,18 @@ body {
 }
 
 @media (max-width: 768px) {
+  .wrapper {
+  max-width: 87%;
+  padding: 0;
+}
+
+.header {
+  margin: 24px auto 28px;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
   .hamburger-menu {
   visibility: hidden;
   position: absolute;
