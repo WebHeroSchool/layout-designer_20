@@ -46,6 +46,7 @@ body {
 }
 
 .main__title_1{
+  position: relative;
   font: bold 280px/222px 'pt_serifbold',arial, helvetica, sans-serif;
   color: #F8EEE4;
   opacity: .4;
@@ -53,6 +54,8 @@ body {
 }
 
 .main__title_2 {
+  top: 45.3%;
+  position: absolute;
   font: bold 98px/1px 'pt_serifbold',arial, helvetica, sans-serif;
   color: #F8EEE4;
   padding-left: 83px;
@@ -63,10 +66,12 @@ body {
   width: 551px;
   height: 55px;
   color: #F8EEE4;
-  padding-bottom: 0 0 81px 21px;
+  padding: 57px 0 39px 21px;
+  letter-spacing: 0.4px;
 }
 
 .main__button {
+  letter-spacing: 1px;
   display: inline-block;
   font: 22px/26px 'Museo Sans Cyrl',arial, helvetica, sans-serif;
   cursor: pointer;
@@ -74,7 +79,7 @@ body {
   border-radius: 48px;
   background: no-repeat #D4BEA3;
   color: #FFF;
-  padding: 17px 86px;
+  padding: 17px 88px;
   margin-left: 21px;
 }
 
