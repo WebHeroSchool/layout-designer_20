@@ -37,6 +37,10 @@ body {
   margin-right: 14.1px;
 }
 
+.menu__item:hover {
+  opacity: 0.5;
+}
+
 .menu__item:last-child {
   padding-right: 0;
 }
