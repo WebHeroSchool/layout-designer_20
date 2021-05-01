@@ -101,6 +101,41 @@ body {
   justify-content: space-between;
 }
 
+.logo {
+  width: 36px;
+  height: 35px;
+  background: url('img/logomobile.svg');
+}
+
+.menu { display: none; }
+
+.main {
+  text-align: center;
+  padding: 74% 0 0 0;
+  background: top center no-repeat url('img/mobile.svg');
+}
+
+.main__title {
+  margin: 18px auto 44px;
+  padding-left: 6px;
+  font: 30px/40px 'pt_serifbold', arial, helvetica, sans-serif;
+  max-width: 268px;
+  max-height: 108px;
+}
+
+.main__subtitle {
+  margin: 0 auto 34px;
+  padding-left: 6px;
+  font: 16px/19px 'Roboto', arial, helvetica, sans-serif;
+  max-width: 238px;
+  max-height: 57px;
+}
+
+.main__button {
+  font: 14px/16px 'Roboto', arial, helvetica, sans-serif;
+  padding: 14px 25px 13px 16px;
+}
+
   .hamburger-menu {
   visibility: hidden;
   position: absolute;
