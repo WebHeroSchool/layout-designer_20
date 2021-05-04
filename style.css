@@ -97,6 +97,10 @@ body {
   background: no-repeat url('img/background_mobile.svg');
 }
 
+.header{
+  padding-bottom: 81px;
+}
+
 .wrapper {
   margin: 0;
 }
@@ -109,6 +113,46 @@ body {
 
 .menu {
   display: none;
+}
+
+.main__title_1{
+  position: relative;
+  font: bold 169px/13px 'pt_serifbold',arial, helvetica, sans-serif;
+  color: #F8EEE4;
+  opacity: .4;
+  margin: 0;
+  padding-left: 16px;
+}
+
+.main__title_2{
+  position: absolute;
+  font: bold 58.8px/43px 'pt_serifbold',arial, helvetica, sans-serif;
+  color: #F8EEE4;
+  padding-left: 76px;
+  letter-spacing: 0.6px;
+}
+
+.main__subtitle{
+  font: 17px/22px 'Museo Sans Cyrl',arial, helvetica, sans-serif;
+  width: 297px;
+  height: 55px;
+  color: #F8EEE4;
+  padding: 128px 0 50px 40px;
+  letter-spacing: 0.8px;
+  text-align: center;
+}
+.main__button{
+  letter-spacing: 0.6px;
+  display: inline-block;
+  font: 16px/25px 'Museo Sans Cyrl',arial, helvetica, sans-serif;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 48px;
+  background: no-repeat #D4BEA3;
+  color: #FFF;
+  padding: 9.8px 61px;
+  margin-left: 76px;
+  text-indent: 1.9px;
 }
 
 .hamburger-menu {
