@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background: url('img/background1920.svg');
+  background:  no-repeat url('img/background1920.svg');
 }
 
 .wrapper {
