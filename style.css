@@ -94,7 +94,7 @@ body {
 
 @media (max-width: 768px) {
 .body{
-  background: no-repeat url('img/background_mobile.svg');
+  background: no-repeat url('img/mobile_bg.jpg');
 }
 
 .header{
@@ -115,6 +115,10 @@ body {
   display: none;
 }
 
+.main{
+  background: none;
+}
+
 .main__title_1{
   position: relative;
   font: bold 169px/13px 'pt_serifbold',arial, helvetica, sans-serif;
@@ -128,8 +132,9 @@ body {
   position: absolute;
   font: bold 58.8px/43px 'pt_serifbold',arial, helvetica, sans-serif;
   color: #F8EEE4;
-  padding-left: 76px;
+  padding: 5px 0 0 76px;
   letter-spacing: 0.6px;
+  margin: 0;
 }
 
 .main__subtitle{
