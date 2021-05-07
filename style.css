@@ -276,4 +276,8 @@ body {
 .body{
   background: no-repeat url('img/1024_bg.svg');
 }
+
+.logo{
+  background: no-repeat url('img/logo1024.svg')
+}
 }
