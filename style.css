@@ -117,6 +117,7 @@ body {
 
 .main{
   background: none;
+  width: 375px;
 }
 
 .main__title_1{
@@ -161,9 +162,10 @@ body {
 }
 
 .hamburger-menu {
-  visibility: hidden;
+  visibility: visible;
   position: absolute;
   z-index: 999;
+  padding: 8px 0 0 41px;
 }
 
 #menu__toggle {
@@ -267,5 +269,11 @@ body {
 
 .menu__item {
   transition-duration: 0.25s;
+}
+}
+
+@media (max-width: 1024px){
+.body{
+  background: no-repeat url('img/1024_bg.svg');
 }
 }
