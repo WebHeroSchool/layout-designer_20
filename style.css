@@ -277,7 +277,35 @@ body {
   background: no-repeat url('img/1024_bg.svg');
 }
 
+.header{
+
+}
+
 .logo{
   background: no-repeat url('img/logo1024.svg')
+}
+
+.menu{
+  
+}
+
+.main{
+  width: 1024px;
+}
+
+.main__title_1{
+
+}
+
+.main__title_2{
+
+}
+
+.main__subtitle{
+
+}
+
+.main__button{
+
 }
 }
