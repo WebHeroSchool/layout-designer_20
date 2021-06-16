@@ -94,7 +94,7 @@ body {
 
 @media (max-width: 768px) {
 .body{
-  background: no-repeat url('img/mobile_bg.jpg');
+  background: no-repeat url('img/mobile_bg.svg');
 }
 
 .header{
@@ -117,7 +117,6 @@ body {
 
 .main{
   background: none;
-  width: 375px;
 }
 
 .main__title_1{
@@ -140,8 +139,8 @@ body {
 
 .main__subtitle{
   font: 17px/22px 'Museo Sans Cyrl',arial, helvetica, sans-serif;
-  width: 297px;
-  height: 55px;
+  min-width: 297px;
+  min-height: 55px;
   color: #F8EEE4;
   padding: 128px 0 50px 40px;
   letter-spacing: 0.8px;
@@ -178,8 +177,8 @@ body {
   justify-content: space-between;
   align-self: flex-end;
   margin-left: 276px;
-  width: 32px;
-  height: 32px;
+  min-width: 32px;
+  min-height: 32px;
   cursor: pointer;
   z-index: 1;
   margin-top: 7px;
@@ -190,8 +189,8 @@ body {
 .menu__btn >span::after {
   display: block;
   position: absolute;
-  width: 25px;
-  height: 3px;
+  min-width: 25px;
+  min-height: 3px;
   align-self: flex-end;
   background-color: #fcf5ed;
 }
@@ -277,6 +276,10 @@ body {
   background: no-repeat url('img/1024_bg.svg');
 }
 
+.wrapper{
+
+}
+
 .header{
 
 }
@@ -286,7 +289,7 @@ body {
 }
 
 .menu{
-  
+
 }
 
 .main{
