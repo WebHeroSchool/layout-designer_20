@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background: url('img/background1920.svg');
+  background:  no-repeat url('img/background1920.svg');
 }
 
 .wrapper {
@@ -29,16 +29,29 @@ body {
 }
 
 .menu__item {
-  font: 22px/26px 'Museo Sans Cyrl', arial, helvetica, sans-serif;
-  padding-right: 34px;
+  font: bold 22px/26px 'Museo Sans Cyrl', arial, helvetica, sans-serif;
+  padding-right: 27px;
   cursor: pointer;
   text-decoration: none;
   color: #F8EEE4;
+  margin-right: 14.1px;
 }
 
-.image{}
+.menu__item:hover {
+  opacity: 0.5;
+}
+
+.menu__item:last-child {
+  padding-right: 0;
+}
+
+.main{
+  background: top 56px right 240px no-repeat url(img/picture2.svg), top 36px right 559px no-repeat url(img/picture1.svg),top 56px right no-repeat url(img/picture3.svg);
+  width: 1720px;
+}
 
 .main__title_1{
+  position: relative;
   font: bold 280px/222px 'pt_serifbold',arial, helvetica, sans-serif;
   color: #F8EEE4;
   opacity: .4;
@@ -46,6 +59,8 @@ body {
 }
 
 .main__title_2 {
+  top: 45.3%;
+  position: absolute;
   font: bold 98px/1px 'pt_serifbold',arial, helvetica, sans-serif;
   color: #F8EEE4;
   padding-left: 83px;
@@ -56,10 +71,12 @@ body {
   width: 551px;
   height: 55px;
   color: #F8EEE4;
-  padding-bottom: 81px;
+  padding: 57px 0 39px 21px;
+  letter-spacing: 0.4px;
 }
 
 .main__button {
+  letter-spacing: 1px;
   display: inline-block;
   font: 22px/26px 'Museo Sans Cyrl',arial, helvetica, sans-serif;
   cursor: pointer;
@@ -67,7 +84,8 @@ body {
   border-radius: 48px;
   background: no-repeat #D4BEA3;
   color: #FFF;
-  padding: 17px 86px;
+  padding: 17px 88px;
+  margin-left: 21px;
 }
 
 .hamburger-menu{
@@ -75,10 +93,78 @@ body {
 }
 
 @media (max-width: 768px) {
-  .hamburger-menu {
-  visibility: hidden;
+.body{
+  background: no-repeat url('img/mobile_bg.svg');
+}
+
+.header{
+  padding-bottom: 81px;
+}
+
+.wrapper {
+  margin: 0;
+}
+
+.logo {
+  margin-top: 35px;
+  padding-top: 74px;
+  background: bottom 84px right  no-repeat url('img/logomobile.svg');
+}
+
+.menu {
+  display: none;
+}
+
+.main{
+  background: none;
+}
+
+.main__title_1{
+  position: relative;
+  font: bold 169px/13px 'pt_serifbold',arial, helvetica, sans-serif;
+  color: #F8EEE4;
+  opacity: .4;
+  margin: 0;
+  padding-left: 16px;
+}
+
+.main__title_2{
+  position: absolute;
+  font: bold 58.8px/43px 'pt_serifbold',arial, helvetica, sans-serif;
+  color: #F8EEE4;
+  padding: 5px 0 0 76px;
+  letter-spacing: 0.6px;
+  margin: 0;
+}
+
+.main__subtitle{
+  font: 17px/22px 'Museo Sans Cyrl',arial, helvetica, sans-serif;
+  min-width: 297px;
+  min-height: 55px;
+  color: #F8EEE4;
+  padding: 128px 0 50px 40px;
+  letter-spacing: 0.8px;
+  text-align: center;
+}
+.main__button{
+  letter-spacing: 0.6px;
+  display: inline-block;
+  font: 16px/25px 'Museo Sans Cyrl',arial, helvetica, sans-serif;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 48px;
+  background: no-repeat #D4BEA3;
+  color: #FFF;
+  padding: 9.8px 61px;
+  margin-left: 76px;
+  text-indent: 1.9px;
+}
+
+.hamburger-menu {
+  visibility: visible;
   position: absolute;
   z-index: 999;
+  padding: 8px 0 0 41px;
 }
 
 #menu__toggle {
@@ -91,8 +177,8 @@ body {
   justify-content: space-between;
   align-self: flex-end;
   margin-left: 276px;
-  width: 32px;
-  height: 32px;
+  min-width: 32px;
+  min-height: 32px;
   cursor: pointer;
   z-index: 1;
   margin-top: 7px;
@@ -103,8 +189,8 @@ body {
 .menu__btn >span::after {
   display: block;
   position: absolute;
-  width: 25px;
-  height: 3px;
+  min-width: 25px;
+  min-height: 3px;
   align-self: flex-end;
   background-color: #fcf5ed;
 }
@@ -182,5 +268,47 @@ body {
 
 .menu__item {
   transition-duration: 0.25s;
+}
+}
+
+@media (max-width: 1024px){
+.body{
+  background: no-repeat url('img/1024_bg.svg');
+}
+
+.wrapper{
+
+}
+
+.header{
+
+}
+
+.logo{
+  background: no-repeat url('img/logo1024.svg')
+}
+
+.menu{
+
+}
+
+.main{
+  width: 1024px;
+}
+
+.main__title_1{
+
+}
+
+.main__title_2{
+
+}
+
+.main__subtitle{
+
+}
+
+.main__button{
+
 }
 }
