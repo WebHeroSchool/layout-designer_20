@@ -5,7 +5,7 @@ body {
 
 .wrapper {
   margin: 0 auto 0 200px;
-  max-width: 84.2%;
+  width: 84.2%;
 }
 
 .header {
@@ -15,8 +15,8 @@ body {
 }
 
 .logo{
-  max-width: 146px;
-  max-height: 55px;
+  width: 146px;
+  height: 48px;
   background: no-repeat url('img/logo1920.svg');
   padding-top: 60px;
   margin-top: 88px;
@@ -47,7 +47,7 @@ body {
 
 .main{
   background: top 56px right 240px no-repeat url(img/picture2.svg), top 36px right 559px no-repeat url(img/picture1.svg),top 56px right no-repeat url(img/picture3.svg);
-  max-width: 1720px;
+  width: 1720px;
 }
 
 .main__title_1{
@@ -68,8 +68,8 @@ body {
 
 .main__subtitle {
   font: 22px/26px 'Museo Sans Cyrl',arial, helvetica, sans-serif;
-  max-width: 551px;
-  max-height: 55px;
+  width: 551px;
+  height: 55px;
   color: #F8EEE4;
   padding: 57px 0 39px 21px;
   letter-spacing: 0.4px;
@@ -103,11 +103,11 @@ body {
 
 .wrapper {
   margin: 0;
-  max-width: 100%;
+  width: 100%;
 }
 
 .logo {
-  margin-top: 35px;
+  margin: 42px 0 0 41px;
   padding-top: 74px;
   background: bottom 84px right  no-repeat url('img/logomobile.svg');
 }
@@ -118,7 +118,7 @@ body {
 
 .main{
   background: none;
-  max-width: 375px;
+  width: 375px;
 }
 
 .main__title_1{
@@ -141,8 +141,7 @@ body {
 
 .main__subtitle{
   font: 17px/22px 'Museo Sans Cyrl',arial, helvetica, sans-serif;
-  min-width: 297px;
-  min-height: 55px;
+  width: 297px;
   color: #F8EEE4;
   padding: 128px 0 50px 40px;
   letter-spacing: 0.8px;
@@ -296,7 +295,7 @@ body {
 }
 
 .main{
-  max-width: 1024px;
+  width: 1024px;
 }
 
 .main__title_1{
