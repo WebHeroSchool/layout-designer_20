@@ -279,38 +279,56 @@ body {
 }
 
 .wrapper{
-
+  margin: 0 auto 0 41px;
 }
 
 .header{
-
+  width: 958px;
+  padding-bottom: 91px;
 }
 
 .logo{
   background: no-repeat url('img/logo1024.svg')
+  padding-top: 58px;
+  margin-top: 63px;
 }
 
 .menu{
+}
 
+.menu__item{
+  font: bold 16px/19px 'Museo Sans Cyrl', arial, helvetica, sans-serif;
+  padding-right: 13.2px;
+  margin-right: 14.1px;
+  letter-spacing: 0.2px;
 }
 
 .main{
   width: 1024px;
+  background: no-repeat url(img/picture4.svg), no-repeat url(img/picture5.svg), no-repeat url(img/picture6.svg);
 }
 
 .main__title_1{
-
+  font: bold 200px/222px 'pt_serifbold',arial, helvetica, sans-serif;
 }
 
 .main__title_2{
-
+  bottom: 67.5%;
+  font: bold 70px/1px 'pt_serifbold',arial, helvetica, sans-serif;
 }
 
 .main__subtitle{
-
+  font: 16px/20.5px 'Museo Sans Cyrl',arial, helvetica, sans-serif;
+  width: 399px;
+  height: 58px;
+  padding: 6px 0 10px 14px;
+  letter-spacing: 0.3px;
 }
 
 .main__button{
-
+  letter-spacing: 0.7px;
+  font: bold 16px/26px 'Museo Sans Cyrl',arial, helvetica, sans-serif;
+  padding: 9px 60px 9px 63px;
+  margin-left: 15px;
 }
 }
